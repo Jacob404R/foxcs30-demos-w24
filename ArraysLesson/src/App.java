@@ -18,5 +18,17 @@ public class App {
         String[] names = {"g","fred","wolf","fox","sutter"};
 
         System.out.println("The length is: " + names.length);
+        //default array for loop
+        for (int i = 0; i < highscore.length; i++ ){
+            System.out.println("Score number " + i + " is " + highscore[i]);
+            System.out.println("Name number " + i + " is " + names[i] + "\n");
+        }
+
+        //backwards loop 
+        for (int i = highscore.length-1; i >= 0 ; i-- ){
+            System.out.println("Score number " + i + " is " + highscore[i]);
+            System.out.println("Name number " + i + " is " + names[i] + "\n");
+        }
+        highscore.
     }
 }
